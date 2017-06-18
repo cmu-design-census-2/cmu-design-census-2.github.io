@@ -297,9 +297,6 @@ header {
     color: black; 
     text-align: center;
     background-color: #e8e8e8;
-/*    border-left:1px solid #121212;
-    border-right:1px solid #121212;*/
-    /*border-bottom:1px solid #121212;*/
 }
 
 header:hover {
@@ -314,7 +311,7 @@ u {
 }
 
 u:hover {
-    border-bottom: 2px solid #ff6700;
+    /*border-bottom: 2px solid #ff6700;*/
 }
 
 .bodycontainer {
@@ -335,25 +332,17 @@ u:hover {
     display: inline-block;
     background-color: #f7f7f7;
     overflow: hidden;
-    border:1px solid #999999;
     z-index: 99999;
 }
 
 #box_interface {
     flex-basis: 90%;
-/*    width: 90%;*/
     height: 90vh;
     max-height: 100%;
     margin: 0 auto;
-/*    margin-left: 5%;*/
     box-sizing: border-box;
     padding-top: 15px;
-    
     display: inline-block;
-/*
-    
-    border: 3px solid black;
-*/
 }
 
 .onecolumn {
@@ -460,7 +449,6 @@ p {
 
 .leftbutton {
     flex: 1 60px;
-/*    width: 4.5%;*/
     height: -webkit-calc(100vh - 120px);
     height:    -moz-calc(100vh - 120px);
     height:         calc(100vh - 120px);
@@ -622,7 +610,7 @@ iframe {
 .tooltip {
     position: relative;
     display: inline-block;
-    border-bottom: 1px solid black; /* If you want dots under the hoverable text */
+    /*border-bottom: 1px solid black;  If you want dots under the hoverable text */
     color: black;
 }
 
@@ -1004,87 +992,6 @@ iframe {
 }
 
 /*Hardcoding*/
-
-/*#agency_color.checkbox-switch > input:checked ~ .checkbox-switch-inner{*/
-/*  background-color:#ffe048;*/
-/*}*/
-
-/*#consulting_color.checkbox-switch > input:checked ~ .checkbox-switch-inner {*/
-/*  background-color:#ff3260;*/
-  
-/*}*/
-
-/*#tech_color.checkbox-switch > input:checked {*/
-/*  border: 2px solid #444;*/
-/*  background-color:#076aea;*/
-/*}*/
-
-/*#business_color.checkbox-switch > input:checked {*/
-/*  border: 2px solid #444;*/
-/*  background-color:#fbcfb6;*/
-/*}*/
-
-/*#print_color.checkbox-switch > input:checked {*/
-/*border: 2px solid #444;*/
-/*  background-color:#ff40d3;*/
-/*}*/
-
-/*#healthcare_color.checkbox-switch > input:checked {*/
-/*  background-color:#3b00f2;*/
-/*}*/
-
-/*#entertainment_color.checkbox-switch > input:checked {*/
-/*    border: 2px solid #444;*/
-/*  background-color:#55fffe;*/
-/*}*/
-
-/*#manufacturing_color.checkbox-switch > input:checked {*/
-/*    border: 2px solid #444;*/
-/*  background-color:#fab400;*/
-/*}*/
-
-/*#nonprofit_color.checkbox-switch > input:checked {*/
-/*    border: 2px solid #444;*/
-/*  background-color:#00dca0;*/
-/*}*/
-
-/*#education_color.checkbox-switch > input:checked {*/
-/*    border: 2px solid #444;*/
-/*  background-color:#04396c;*/
-/*}*/
-
-/*#finance_color.checkbox-switch > input:checked {*/
-/*    border: 2px solid #444;*/
-/*  background-color:#b09bff;*/
-/*}*/
-
-/*#government_color.checkbox-switch > input:checked {*/
-/*    border: 2px solid #444;*/
-/*  background-color:#f431b2;*/
-/*}*/
-
-/*#law_color.checkbox-switch > input:checked {*/
-/*    border: 2px solid #444;*/
-/*  background-color:#fcdff7;*/
-/*}*/
-
-/*#retail_color.checkbox-switch > input:checked {*/
-/*    border: 2px solid #444;*/
-/*  background-color:#d75bff;*/
-/*}*/
-
-/*#transportation_color.checkbox-switch > input:checked {*/
-/*    border: 2px solid #444;*/
-/*  background-color:#a6d6f7;*/
-/*}*/
-
-/*#other_color.checkbox-switch > input:checked {*/
-/*    border: 2px solid #444;*/
-/*  background-color:#309dac;*/
-/*}*/
-
-
-
 /**/
 
 .checkbox-switch > .checkbox-switch-inner {
