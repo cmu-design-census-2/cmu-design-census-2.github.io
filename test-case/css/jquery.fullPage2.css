@@ -20,7 +20,7 @@ html.fp-enabled,
     height: 100%;
     position: relative;
 
-    /* Touch detection for Windows 8 */
+    /* Touch detection for Windows8 */
     -ms-touch-action: none;
 
     /* IE 11 on Windows Phone 8.1*/
@@ -699,7 +699,7 @@ iframe {
 
 #legend_container_position{
     display: inline-block;
-    height: 85px;
+    height:97px;
     width:100%;
     /*border: 1px solid #111;*/
 }
@@ -822,6 +822,7 @@ iframe {
     margin-left:1.1vw;
     margin-top:15px;
     clear:both;
+    width:14vw;
 }
 
 #filter_2_wrapper {
